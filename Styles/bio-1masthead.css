@@ -1,0 +1,12 @@
+  /*    defines space for masthead to hold name of individual
+  */
+
+  .bio-1masthead 
+{
+  text-align: center;
+  width: 600px;
+  height: 40px;
+  font-size: 26px; 
+  margin-top: 10px;
+  margin-left: 300px;
+  } 

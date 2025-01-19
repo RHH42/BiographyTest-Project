@@ -1,0 +1,12 @@
+.ancestor-container 
+  {
+    width: 1220px;
+    height: 525px;
+    border-style: ridge;
+    border-width: 7px;
+    border-radius: 20px;
+    border-color: brown;
+    background-color: rgb(234, 217, 201);
+  }
+  
+

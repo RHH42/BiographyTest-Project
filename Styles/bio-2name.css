@@ -1,0 +1,20 @@
+/*      space for individual's name  */
+
+
+.bio-2name {        
+  width: 560px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Birthstone";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-style: ridge;
+  border-color: brown; 
+  border-width: 3px;
+  border-radius: 10px;
+  padding-top: none;
+  padding-bottom: 10px;
+}

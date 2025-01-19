@@ -1,0 +1,21 @@
+/*    space for caption "Death" */             
+
+.bio-8death-label             
+{ 
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  width: 30px;
+  height: 20px;
+  margin-top: 65px;
+  margin-left: 10px;
+  border-style: ridge; 
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: brown;
+  font-family: "Birthstone";
+  font-weight: 700;
+  text-align: center;
+}
+

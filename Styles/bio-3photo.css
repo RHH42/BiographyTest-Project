@@ -1,0 +1,23 @@
+/*    space for individual's photo
+
+*/
+.bio-3photo 
+{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  width: 300px;
+  height: 375px;
+  border-style: ridge; 
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: brown;
+  font-family: "Birthstone";
+  font-weight: 700;
+  text-align: center;
+  margin-top: 65px;
+  margin-left: 40px;
+  object-fit: cover;
+}
+
