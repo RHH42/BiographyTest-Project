@@ -7,7 +7,7 @@
   grid-column-start: 3;
   grid-column-end: 3;
   width: 200px;
-  height: 85px;
+  height: 105px;
   margin-top: 65px;
   margin-right: 10px;
   border-style: ridge; 
@@ -15,7 +15,7 @@
   border-radius: 5px;
   border-color: brown;
   font-family: "Birthstone";
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   padding-left: 5px;
 }

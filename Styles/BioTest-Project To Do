@@ -1,0 +1,30 @@
+Styles/BiographyTest-Project To Do List:
+
+1.  Put constant labels in 
+    .bio-5birth-data.css 
+        Born:/Birthplace:/Mother:/Father:
+    .bio-9death-data 
+        Date:/Place:(city, county, state)/Burial Site:(city, county, state, 
+            cemetery), 
+    .bio-7marriage-data 
+        Date:/Place:(city/county/state)/Location:(church,etc.)
+        By:(pastor/jp)
+    .bio-11children.css 
+        Children:
+    .bio-10text.css 
+        Biography: 
+  
+    Explore ::before and ::after for this
+
+    2.  Create variables for elements in each sytle above and create javascript entry forms:
+          .bio-2name 
+          .bio-5birth-data elements
+          .bio-9death-data elements
+          .bio-7marriage-data elements
+          .bio-11children (birth order number 
+            and name )
+          .bio-10text 
+    
+    3.  Set variables text on fixed tabs except name which centers in .bio-1masthead
+
+    4.  Investigate putting CSS filename in bottom border this page and future pages.
