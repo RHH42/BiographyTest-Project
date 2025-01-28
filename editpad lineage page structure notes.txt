@@ -1,0 +1,13 @@
+Lineage Boxes Project notes:
+
+CSS Styles Needed:
+line-page
+line-masthead
+line-surname
+line-grid-container
+line-grid-container > div
+line-gen-box  [3 rows; 3 columns - 9 boxes]
+	[name/birthdate/birthplace/spouse/marriage_date/marriage_place/death_date/
+	death_place/burial_place/children's names preceded by birth order]
+
+HTML 

@@ -1,0 +1,58 @@
+  <div class="bio-0page">
+
+      <div class="bio-1masthead">
+        <div class="bio-2name">
+          
+        </div>
+      </div>  <!--  END of .bio-1masthead -->
+
+      
+    <div class="bio-3grid-container">
+        
+      <div class="bio-4photo">
+      </div>
+
+      <div class="bio-5birth-label">
+        Birth
+      </div>  
+      
+      <div class="bio-6birth-data">
+          Date: <br>
+          Place: C<br>
+          Mother:<br> 
+          Father: 
+      </div>
+
+      <div class="bio-7death-label">
+          Death
+      </div>
+
+      <div class="bio-8death-data">
+          Date: <br>
+          Place: <br>
+          Burial: 
+      </div>
+
+      <div class="bio-9marriage-label">
+        Marriage
+      </div>
+
+      <div class="bio-10marriage-data">
+        Spouse: <br>
+        Date: <br>
+        Place:  <br>
+      </div>
+
+      <div class="bio-11children">Children:  
+      
+      </div>
+    
+      <div class="bio-12thumbnails">
+        Thumbnails:
+      </div>
+
+      <div class="bio-13text">
+        
+      </div>
+
+    </div>  <!-- END of xxxxxxx  page -->

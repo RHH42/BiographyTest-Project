@@ -1,6 +1,6 @@
 /*    space for caption "Marriage" */
 
-.bio-6marriage-label            
+.bio-9marriage-label            
 { 
   grid-row-start: 1;
   grid-row-end: 1;
@@ -9,14 +9,13 @@
   width: 50px;
   height: 20px;
   margin-top: 65px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 10px;
+  background-color: rgb(246, 234, 223);
   border-style: ridge; 
   border-width: 1.5px;
   border-radius: 5px;
   border-color: brown;
-  font-family: "Birthstone";
-  font-weight: 700;
   text-align: center;
 }
 

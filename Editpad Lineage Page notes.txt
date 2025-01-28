@@ -1,0 +1,211 @@
+![Screenshot 2025-01-22 162748|690x315](upload://9oSdb0wG3PLaFHpfL7BSOHEFebr.png)
+
+The screen above will be incorporated into a website.  The purpose of the website is to display family history information.  The screen was accomplished by the HTML code shown below.  
+
+As you can see, each of the 9 major boxes is coded explicitly in separate div tags.  Furthermore, each box is styled in its own CSS file.  Each box is essentially the same except for content and positioning onscreen.  The number of boxes will be determined by the number of generations to be displayed which will vary.  For every 9 generations a separate screen will be needed.  
+
+It seems to me that it should be possible to code the styling in a single CSS file and write code that will determine how many generations of data are present and figure out how many screens will be needed them generate the html or other code to display them.   In one family line I have 24 generations of names and associated information.  There will be a family line for every family contributing to the genealogy.  Coding each of those explicitly can be done but does not appropriately exploit the power of using computers.
+
+I'm just beginning this web development project.  I have an overall website structure planned and have coded the CSS to style parts of screens and whole screens and the html to display what you see.  I do not yet have a database that stores the information.  I plan to use javascript - and possibly REACT - to create the interactive website.
+
+ If I were doing this like I did back in my mainframe coding days, I'd first design the data structures and stores (files) then create an algorithm that would read the files based on user responses and format screens and display them.  It's been over 50 years since I was a programmer.  I'm a bit rusty.
+
+My first instinct tells me that I will need to have algorithms that build screen content from data, styling, and markup, but I need an example to follow to break through the conceptual fog my head is now in.
+
+Can someone give me guidance on how to use the basic building block elements then reuse them to create the pages that will be displayed? 
+
+tia
+
+too bad; butundnown  it seems that there should be a way to create a single CSS style and have it used multiple times instead of having 9 of them.  There will be an unknown number of screens such as these depending on how many generations are to be shown in a family line
+```
+             <!DOCTYPE html>
+<html lang="en">
+  <head>  <!--  BEGINNING OF HEAD SECTION  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <title>
+        Surname Line
+      </title>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Birthstone">
+      
+      <link
+      rel="stylesheet"
+      href="/Styles/line-1surname-page.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-2surname-masthead.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-3surname.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-page-number.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-grid-container.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen1.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen2.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen3.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen4.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen5.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen6.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen7.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen8.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-gen9.css">
+
+      <link
+      rel="stylesheet"
+      href="/Styles/line-page-end.css">
+
+   
+
+    <style>     
+          /* ALL STYLING IS IN EXTERNAL CSS FILES LINKED ABOVE
+          */
+    </style>
+
+  </head> <!--    END OF HEAD SECTION -->
+  
+
+  <body>  <!--  BEGINNING OF BODY SECTION 
+                (PAGE CONTENT) -->
+
+      <div class="line-1surname-page">
+
+          <div class="line-2surname-masthead">
+         
+            <div class="line-3surname">
+               Hutchins Paternal Line
+            </div>
+          </div>
+
+          <div class="line-page-number">
+            Page:
+          </div>
+
+          <div class="line-grid-container">
+
+            <div class="line-gen1">
+                Name:<br>
+                LDS ID:<br>
+                Born:<br>
+                Died:<br>
+                Married: spouse name and place of marriage<br>
+                Children: names preceded by birth order number<br>
+                Children: names preceded by birth order number<br>
+                
+            </div>
+   
+            <div class="line-gen2"> 
+              Name & LDS ID:<br>
+                Born:<br>
+                Died:<br>
+                Married: spouse name and place of marriage<br>
+                Children: names preceded by birth order number           
+            </div>
+
+            <div class="line-gen3">
+              Name & LDS ID:<br>
+              Born:<br>
+              Died:<br>
+              Married: spouse name and place of marriage<br>
+              Children: names preceded by birth order number3
+            </div>
+   
+            <div class="line-gen4">
+              Name & LDS ID:<br>
+              Born:<br>
+              Died:<br>
+              Married: spouse name and place of marriage<br>
+              Children: names preceded by birth order number
+            </div>
+
+            <div class="line-gen5">
+              Name & LDS ID:<br>
+                Born:<br>
+                Died:<br>
+                Married: spouse name and place of marriage<br>
+                Children: names preceded by birth order number
+            </div>
+
+            <div class="line-gen6">
+              Name & LDS ID:<br>
+              Born:<br>
+              Died:<br>
+              Married: spouse name and place of marriage<br>
+              Children: names preceded by birth order number
+            </div>
+   
+            <div class="line-gen7"> 
+              Name & LDS ID:<br>
+                Born:<br>
+                Died:<br>
+                Married: spouse name and place of marriage<br>
+                Children: names preceded by birth order number
+            </div>
+
+            <div class="line-gen8"> 
+              Name & LDS ID:<br>
+                Born:<br>
+                Died:<br>
+                Married: spouse name and place of marriage<br>
+                Children: names preceded by birth order number8
+            </div>
+
+            <div class="line-gen9"> 
+              Name & LDS ID:<br>
+              Born:<br>
+              Died:<br>
+              Married: spouse name and place of marriage<br>
+              Children: names preceded by birth order number
+            </div>
+
+          </div> <!-- END of .line-grid-container -->
+        
+        <div class="line-page-end">
+          End/Next Page
+        </div>
+          
+      </div>  <!--END of .surname-line-page -->
+    
+        
+
+  </body> <!--  END OF BODY SECTION 
+                (END OF PAGE CONTENT)  -->
+
+
+</html>
+```

@@ -1,6 +1,6 @@
  /*     space for label "Birth" */
 
- .bio-4birth-label
+ .bio-5birth-label
  { 
    grid-row-start: 1;
    grid-row-end: 1;
@@ -9,13 +9,11 @@
    width: 30px;
    height: 20px;
    margin-top: 6px;
-   margin-right: 2px;
+   background-color: rgb(246, 234, 223);
    border-style: ridge; 
    border-width: 1.5px;
    border-radius: 5px;
    border-color: brown;
-   font-family: "Birthstone";
-   font-weight: 700;
    text-align: center;
    margin-top: 65px;
  }

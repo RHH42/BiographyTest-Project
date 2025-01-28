@@ -1,0 +1,16 @@
+.bio-0page 
+  {
+    width: 1220px;
+    height: 555px;
+    border-style: ridge;
+    border-width: 7px;
+    border-radius: 20px;
+    border-color: brown;
+    background-color: rgb(245, 225, 210);
+    font-family: "Birthstone";
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+  
+

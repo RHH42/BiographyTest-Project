@@ -1,22 +1,22 @@
 /*  space for birth data: date/place/mother/father  */
 
-.bio-5birth-data 
+.bio-6birth-data 
 {            
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 3;
   grid-column-end: 3;
-  width: 200px;
-  height: 105px;
+  width: 210px;
+  height: 95px;
   margin-top: 65px;
-  margin-right: 10px;
+  margin-left: 3px;
+  background-color: rgb(246, 234, 223);
   border-style: ridge; 
   border-width: 1.5px;
   border-radius: 5px;
   border-color: brown;
-  font-family: "Birthstone";
-  font-size: 16px;
-  font-weight: bold;
+ 
+  font-size: 14.5px;
   padding-left: 5px;
 }
  

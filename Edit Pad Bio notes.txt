@@ -1,0 +1,27 @@
+Biography Page Layout:
+--	page layout style with border and background dark
+--	masthead style with border to contain name of ancestor
+--	style for name of ancestor
+--	grid container style with 6 columns, 4 rows (top, children, thumbnails, biography)
+--	photo style with border and lighter background spanning rows
+--	birth style with border and lighter background
+--	birth information style with border and lighter background
+
+0	page			font family, size, weight
+1	masthead		font size
+2	name			font family, size, weight
+3	grid-container(4 rows; 7 columns	) > div	font family, size
+row 1
+4        photo			font family, weight
+5       birth label			font family, weight
+6        birth box			font family, weight
+7       death lable			font family, weight
+8        death box			font family, size, weight
+9        marriage label		font family, weight
+10        marriage box		font family, size, weight
+row 2
+11        children			font family, size, weight
+row 3
+12        thumbnails		font family, size, weight
+row 4 
+13        biography		font family, size weight
