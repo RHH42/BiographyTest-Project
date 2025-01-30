@@ -1,7 +1,8 @@
 .bio-0page 
   {
     width: 1220px;
-    height: 555px;
+    height: 505px;
+    margin-top: 40px;
     border-style: ridge;
     border-width: 7px;
     border-radius: 20px;
